@@ -11,6 +11,27 @@
 </body>
 </html>
 <script>
+    //Q1-To find the square root of every element of an array
+    const output = [4, 9, 16, 25, 36];
+let newArr=[]
+for (let i=0;i<output.length;i++)
+{
+    newArr.push(Math.sqrt(output[i]))
+}
+console.log(newArr)
+
+//Q2-Make alternate character to upper case
+const inputStr = "Kanasvi Patil";
+let strNew=inputStr.split('')
+console.log(strNew)
+for(let i=0;i<strNew.length; i=i+2)
+{
+    strNew[i]=strNew[i].toUpperCase();
+}
+console.log(strNew.join(''))
+
+ 
+
    
     //Q3-To find the negative values in an array or 2D Array
 
